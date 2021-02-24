@@ -7,7 +7,7 @@
 	include_once('lib/curl_query.php');
 	include_once('lib/simple_html_dom.php');
 
-	$sql = SQL::Instance();
+	//$sql = SQL::Instance();
 	
 	$html = curl_get('http://ntschool.ru/courses');
 	$dom = str_get_html($html);
